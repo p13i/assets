@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900.01 252.01">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: .01px;
+      }
+    </style>
+  </defs>
+  <g id="MARK_CUT_bounding_circles_svg_" data-name="MARK/CUT bounding circles (svg)">
+    <circle class="cls-1" cx="9.005" cy="9.005" r="9"/>
+    <circle class="cls-1" cx="9.005" cy="243.005" r="9"/>
+    <circle class="cls-1" cx="891.005" cy="243.005" r="9"/>
+    <circle class="cls-1" cx="891.005" cy="9.005" r="9"/>
+  </g>
+  <g id="CUT_main_outlines_svg_" data-name="CUT main outlines (svg)">
+    <path class="cls-1" d="m266.344,43.205h0c-2.365,0-4.551,1.262-5.734,3.311h0c-1.183,2.049-1.183,4.573,0,6.621h0c1.183,2.049,3.369,3.311,5.734,3.311h0c2.365,0,4.551-1.262,5.734-3.311h0c1.183-2.049,1.183-4.573,0-6.621h0c-1.183-2.049-3.369-3.311-5.734-3.311Z"/>
+    <path class="cls-1" d="m266.344,194.405h0c-2.365,0-4.551,1.262-5.734,3.311h0c-1.183,2.049-1.183,4.573,0,6.621h0c1.183,2.049,3.369,3.311,5.734,3.311h0c2.365,0,4.551-1.262,5.734-3.311h0c1.183-2.049,1.183-4.573,0-6.621h0c-1.183-2.049-3.369-3.311-5.734-3.311Z"/>
+    <path class="cls-1" d="m417.544,43.205h0c-2.365,0-4.551,1.262-5.734,3.311h0c-1.183,2.049-1.183,4.573,0,6.621h0c1.183,2.049,3.369,3.311,5.734,3.311h0c2.365,0,4.551-1.262,5.734-3.311h0c1.183-2.049,1.183-4.573,0-6.621h0c-1.183-2.049-3.369-3.311-5.734-3.311Z"/>
+    <path class="cls-1" d="m417.544,194.405h0c-2.365,0-4.551,1.262-5.734,3.311h0c-1.183,2.049-1.183,4.573,0,6.621h0c1.183,2.049,3.369,3.311,5.734,3.311h0c2.365,0,4.551-1.262,5.734-3.311h0c1.183-2.049,1.183-4.573,0-6.621h0c-1.183-2.049-3.369-3.311-5.734-3.311Z"/>
+    <rect class="cls-1" x="18.005" y="18.005" width="216" height="216"/>
+    <rect class="cls-1" x="234.005" y="18.005" width="216" height="216"/>
+    <rect class="cls-1" x="450.005" y="18.005" width="216" height="216"/>
+    <rect class="cls-1" x="666.005" y="18.005" width="216" height="216"/>
+    <g>
+      <rect class="cls-1" x="252.005" y="36.005" width="180" height="180"/>
+      <g>
+        <circle class="cls-1" cx="291.474" cy="75.605" r="18"/>
+        <circle class="cls-1" cx="341.874" cy="75.605" r="18"/>
+        <circle class="cls-1" cx="392.013" cy="75.605" r="18"/>
+        <circle class="cls-1" cx="291.605" cy="126.005" r="18"/>
+        <circle class="cls-1" cx="342.005" cy="126.005" r="18"/>
+        <circle class="cls-1" cx="392.144" cy="126.005" r="18"/>
+        <circle class="cls-1" cx="291.605" cy="176.405" r="18"/>
+        <circle class="cls-1" cx="342.005" cy="176.405" r="18"/>
+        <circle class="cls-1" cx="392.144" cy="176.405" r="18"/>
+      </g>
+    </g>
+    <g>
+      <circle class="cls-1" cx="507.474" cy="75.605" r="18"/>
+      <circle class="cls-1" cx="557.874" cy="75.605" r="18"/>
+      <circle class="cls-1" cx="608.013" cy="75.605" r="18"/>
+      <circle class="cls-1" cx="507.605" cy="126.005" r="18"/>
+      <circle class="cls-1" cx="558.005" cy="126.005" r="18"/>
+      <circle class="cls-1" cx="608.144" cy="126.005" r="18"/>
+      <circle class="cls-1" cx="507.605" cy="176.405" r="18"/>
+      <circle class="cls-1" cx="558.005" cy="176.405" r="18"/>
+      <circle class="cls-1" cx="608.144" cy="176.405" r="18"/>
+    </g>
+  </g>
+</svg>
