@@ -9,9 +9,6 @@ jobs:
       - name: Setup repo
         uses: actions/checkout@v2
 
-      - name: Setup dev environment
-        run: make setup
-
       - name: Run linters
         run: make lint
 
