@@ -20,6 +20,7 @@ clean:
 serve:
 	python3 -m http.server --directory .
 
-lint:
+.PHONY: lint
+lint: generate
 	npm install --save-dev prettier
 	npx prettier --write index.html index.json

@@ -54,7 +54,7 @@ def generate_index_html(path):
             # List the contents of the current directory
             with os.scandir(path) as it:
                 for entry in it:
-                    if entry.name.startswith('.'):
+                    if entry.name.startswith('.') or 'node_modules' in entry.name:
                         continue  # Ignore hidden files and directories
                     
                     entry_rel_path = entry.name  # Path relative to the current directory
