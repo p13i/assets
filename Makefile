@@ -23,4 +23,4 @@ serve:
 .PHONY: lint
 lint: generate
 	npm install --save-dev prettier
-	npx prettier --write index.html index.json
+	npx prettier --write **/index.html index.html
