@@ -14,8 +14,9 @@ def build_directory_structure(path):
     generate_index_html(path)
 
     with os.scandir(path) as it:
+        it = sorted(it, key=lambda entry: entry.name)
         for entry in it:
-            if entry.name.startswith('.'):
+            if entry.name.startswith('.') or 'node_modules' in entry.name:
                 continue  # Ignore hidden directories
             rel_path = os.path.relpath(entry.path, cwd)  # Get the relative path to CWD
             if entry.is_dir(follow_symlinks=False):
@@ -53,6 +54,7 @@ def generate_index_html(path):
             
             # List the contents of the current directory
             with os.scandir(path) as it:
+                it = sorted(it, key=lambda entry: entry.name)
                 for entry in it:
                     if entry.name.startswith('.') or 'node_modules' in entry.name:
                         continue  # Ignore hidden files and directories
@@ -81,8 +83,9 @@ def list_subdirectory_files(path, file_handle):
     It creates a nested <ul> list for each subdirectory.
     """
     with os.scandir(path) as it:
+        it = sorted(it, key=lambda entry: entry.name)
         for entry in it:
-            if entry.name.startswith('.'):
+            if entry.name.startswith('.') or 'node_modules' in entry.name:
                 continue  # Ignore hidden files and directories
             
             entry_rel_path = os.path.relpath(entry.path, os.getcwd())  # Relative path to the current directory
