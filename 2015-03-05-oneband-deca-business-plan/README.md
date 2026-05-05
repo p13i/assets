@@ -1,6 +1,13 @@
-# oneBand DECA business plan image assets
+# oneBand DECA business plan assets
 
-Image assets for the March 5, 2015 oneBand DECA business plan blog post.
+Assets for the March 5, 2015 oneBand DECA business plan blog post.
+
+## Documents
+
+- `oneband-business-plan.pdf`: Full oneBand DECA Entrepreneurship Written Event business plan.
+- `oneband-business-plan-handout.pdf`: oneBand DECA presentation handout PDF.
+
+## Images
 
 - `microsoft-band-running-summary.jpeg`: Microsoft Band promotional image showing a running activity summary.
 - `washington-state-king-county-highlight.png`: Washington state map with King County highlighted.
