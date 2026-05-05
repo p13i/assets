@@ -9,6 +9,8 @@ Assets for the March 5, 2015 oneBand DECA business plan blog post.
 
 ## Images
 
+- `oneband-thumbnail.png`: Monochrome thumbnail illustration of a standalone
+  oneBand-style wearable health band.
 - `microsoft-band-running-summary.jpeg`: Microsoft Band promotional image showing a running activity summary.
 - `washington-state-king-county-highlight.png`: Washington state map with King County highlighted.
 - `king-county-seattle-bellevue-redmond-map.png`: King County area map identifying Seattle, Bellevue, and Redmond.
