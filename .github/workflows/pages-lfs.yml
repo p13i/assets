@@ -27,6 +27,11 @@ jobs:
         with:
           lfs: true
 
+      - name: Pull LFS assets
+        run: |
+          git lfs pull
+          test "$(head -c 3 2016-05-25-machine-learning-notes/cover.jpg | xxd -p)" = "ffd8ff"
+
       - name: Configure Pages
         uses: actions/configure-pages@v6
 
